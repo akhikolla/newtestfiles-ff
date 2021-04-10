@@ -1,0 +1,3 @@
+testlist <- list(genotype = c(-1266583689L, 2004318071L, 1701123349L, 352321536L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 21L, 353703189L, 353703189L,  353703189L, 353703189L, 353703189L, 2115310949L, 1701120212L,  -737673216L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L))
+result <- do.call(detectRUNS:::genoConvertCpp,testlist)
+str(result)

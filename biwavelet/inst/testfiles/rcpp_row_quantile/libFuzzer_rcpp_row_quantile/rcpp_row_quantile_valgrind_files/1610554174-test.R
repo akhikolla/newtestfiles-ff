@@ -1,0 +1,3 @@
+testlist <- list(data = structure(c(7.82317901775458e-313, 6.59778979685608e-304,  1.5297382777237e-308, 4.94065645841247e-324, 4.94065645841247e-324,  4.94065645841247e-324, 4.94065645841247e-324), .Dim = c(7L, 1L )), q = 2.05318097709214e-300)
+result <- do.call(biwavelet:::rcpp_row_quantile,testlist)
+str(result)

@@ -1,0 +1,3 @@
+testlist <- list(x = structure(c(1.35248279137049e-309, 1.92311390535823e-168,  2.05062806800024e-304, 6.79608694771605e-145, 1.93112249434256e-308,  8.13998565485234e-165, 9.53282412436824e-130), .Dim = c(7L, 1L )))
+result <- do.call(bravo:::colSumSq_matrix,testlist)
+str(result)

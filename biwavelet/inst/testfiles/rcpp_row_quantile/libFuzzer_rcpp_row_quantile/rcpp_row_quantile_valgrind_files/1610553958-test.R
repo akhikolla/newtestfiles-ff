@@ -1,0 +1,1 @@
+testlist <- list(data = structure(0, .Dim = c(1L, 1L)), q = 0)
